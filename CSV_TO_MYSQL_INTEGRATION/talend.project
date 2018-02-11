@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
-  <TalendProperties:Project xmi:id="_8HjTMQ7lEeiSlpayoVnvGw" label="Csv_To_MySQL_Integration" description="Csv_To_MySQL_Integration" language="java" technicalLabel="CSV_TO_MYSQL_INTEGRATION" creationDate="2018-02-11T09:52:07.721+0530" author="_8HjTMg7lEeiSlpayoVnvGw" productVersion="Talend Data Integration-6.4.1.20170623_1246" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/pavanTalend/test_jobs.git&quot;,&quot;login&quot;:&quot;pavantalend17@gmail.com&quot;,&quot;passwd&quot;:&quot;Tke0dwuoXvynPEUfyzd6/w==&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" reference="true" type="DI" bigData="false">
+  <TalendProperties:Project xmi:id="_8HjTMQ7lEeiSlpayoVnvGw" label="Csv_To_MySQL_Integration" description="Csv_To_MySQL_Integration" language="java" technicalLabel="CSV_TO_MYSQL_INTEGRATION" creationDate="2018-02-11T09:52:07.721+0530" author="_8HjTMg7lEeiSlpayoVnvGw" productVersion="Talend Data Integration-6.4.1.20170623_1246" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/pavanTalend/test_jobs.git&quot;,&quot;login&quot;:&quot;pavantalend17@gmail.com&quot;,&quot;passwd&quot;:&quot;Tke0dwuoXvynPEUfyzd6/w==&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" reference="true" type="DI" itemsRelationVersion="1.3" bigData="false">
+    <technicalStatus xmi:id="_8OwHYA7lEeiSlpayoVnvGw" label="development" code="DEV"/>
+    <technicalStatus xmi:id="_8OwHYQ7lEeiSlpayoVnvGw" label="testing" code="TEST"/>
+    <technicalStatus xmi:id="_8OwHYg7lEeiSlpayoVnvGw" label="production" code="PROD"/>
+    <documentationStatus xmi:id="_8Ohd4A7lEeiSlpayoVnvGw" label="unchecked" code="UCK"/>
+    <documentationStatus xmi:id="_8OiE8A7lEeiSlpayoVnvGw" label="checked" code="CHK"/>
+    <documentationStatus xmi:id="_8OiE8Q7lEeiSlpayoVnvGw" label="validated" code="VAL"/>
     <migrationTask xmi:id="_8MoAcA7lEeiSlpayoVnvGw" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_8MoAcQ7lEeiSlpayoVnvGw" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_8MoAcg7lEeiSlpayoVnvGw" id="org.talend.repository.model.migration.CleanFoldersMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
