@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <TalendMetadata:DatabaseConnection xmi:id="_oVzXMOsbEeemyIX4wsHuBA" name="test_con" id="_uiqXgOsaEeemyIX4wsHuBA" label="test_con" dataPackage="_zayHkOsbEeemyIX4wsHuBA" DatabaseType="MySQL" DriverClass="org.gjt.mm.mysql.Driver" URL="jdbc:mysql://localhost:3306/employee_details?noDatetimeStringSync=true" dbVersionString="MYSQL_5" Port="3306" Username="root" Password="" ServerName="localhost" DatasourceName="" FileFieldName="" SID="employee_details" SqlSynthax="SQL Syntax" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_oVzXMesbEeemyIX4wsHuBA" tag="Is Conn Need Reload" value="true"/>
+    <taggedValue xmi:id="_oWHgQOsbEeemyIX4wsHuBA" tag="package filter" value=""/>
+    <taggedValue xmi:id="_oWQqMOsbEeemyIX4wsHuBA" tag="Status" value=""/>
+    <taggedValue xmi:id="_oWQqMesbEeemyIX4wsHuBA" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_oWQqMusbEeemyIX4wsHuBA" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_oWQqM-sbEeemyIX4wsHuBA" tag="Description" value=""/>
+    <taggedValue xmi:id="_oWQqNOsbEeemyIX4wsHuBA" tag="Author" value=""/>
+    <taggedValue xmi:id="_oWQqNesbEeemyIX4wsHuBA" tag="otherParameter"/>
+    <taggedValue xmi:id="_oWVisOsbEeemyIX4wsHuBA" tag="DB ProductName" value="MySQL"/>
+    <taggedValue xmi:id="_oWVisesbEeemyIX4wsHuBA" tag="DB ProductVersion" value="5.6.38"/>
+    <taggedValue xmi:id="_oWVisusbEeemyIX4wsHuBA" tag="DB IdentifierQuoteString" value="`"/>
+    <parameters xmi:id="_oVzXMusbEeemyIX4wsHuBA" key="CONN_PARA_KEY_USERNAME" value="root"/>
+    <parameters xmi:id="_xbjawOsbEeemyIX4wsHuBA" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_zayHkOsbEeemyIX4wsHuBA" name="employee_details" dataManager="_oVzXMOsbEeemyIX4wsHuBA">
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_4nhSMOsbEeemyIX4wsHuBA" name="test" id="_4ndAwOsbEeemyIX4wsHuBA" label="test" tableType="TABLE">
+      <taggedValue xmi:id="_4nhSMesbEeemyIX4wsHuBA" tag="Comment" value=""/>
+      <taggedValue xmi:id="_4nhSMusbEeemyIX4wsHuBA" tag="Comment" value=""/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_4nhSM-sbEeemyIX4wsHuBA" name="id" label="id" length="10" sourceType="INT" talendType="id_Integer">
+        <taggedValue xmi:id="_4nhSNOsbEeemyIX4wsHuBA" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_4nhSNesbEeemyIX4wsHuBA" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_4nhSNusbEeemyIX4wsHuBA" name="INT" numericPrecisionRadix="10" javaDataType="4" nullable="columnNullable"/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>

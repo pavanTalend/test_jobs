@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_CEAUgP0UEee8Bd7wOrJEsg" name="scenario" dataPackage="_CEAUgf0UEee8Bd7wOrJEsg" Server="Localhost 127.0.0.1" FilePath="C:/Users/Dell/Desktop/scenario.txt" Encoding="US-ASCII" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_CEAUgf0UEee8Bd7wOrJEsg" name="default" dataManager="_CEAUgP0UEee8Bd7wOrJEsg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_CEAUgv0UEee8Bd7wOrJEsg" id="_zBv2QP0TEee8Bd7wOrJEsg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CEAUg_0UEee8Bd7wOrJEsg" label="input" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

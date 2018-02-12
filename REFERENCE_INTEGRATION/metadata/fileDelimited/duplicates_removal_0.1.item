@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_5EHwMPLSEee0163kfbBlGA" name="duplicates_removal" dataPackage="_5EHwMfLSEee0163kfbBlGA" Server="Localhost 127.0.0.1" FilePath="C:/Users/Dell/Desktop/normal.txt" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_5EHwMfLSEee0163kfbBlGA" name="default" dataManager="_5EHwMPLSEee0163kfbBlGA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_5EHwMvLSEee0163kfbBlGA" id="_un3MsPLSEee0163kfbBlGA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_5EHwM_LSEee0163kfbBlGA" label="emp_id" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_5EHwNPLSEee0163kfbBlGA" label="emp_name" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

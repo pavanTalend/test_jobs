@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_SfD5sOk0Eee7F4NsqB4l0g" comment="connectionComment" label="connectionLabel" dataPackage="_SfD5sek0Eee7F4NsqB4l0g"/>
+  <TalendMetadata:GenericPackage xmi:id="_SfD5sek0Eee7F4NsqB4l0g" dataManager="_SfD5sOk0Eee7F4NsqB4l0g">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_SfEgwOk0Eee7F4NsqB4l0g" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_SfEgwek0Eee7F4NsqB4l0g" name="name" id="2631" label="name" length="-1" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_SfFu4Ok0Eee7F4NsqB4l0g" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_SfFu4ek0Eee7F4NsqB4l0g" name="salary" id="2632" label="salary" length="-1" precision="-1" sourceType="" talendType="id_Integer">
+        <initialValue xmi:id="_SfFu4uk0Eee7F4NsqB4l0g" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_SfFu4-k0Eee7F4NsqB4l0g" name="location" id="2633" label="location" length="-1" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_SfFu5Ok0Eee7F4NsqB4l0g" body=""/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

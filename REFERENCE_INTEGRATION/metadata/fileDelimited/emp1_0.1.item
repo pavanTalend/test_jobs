@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_QIKdQP2MEeeCKbSHiqqQeg" name="emp1" dataPackage="_QIKdQf2MEeeCKbSHiqqQeg" Server="Localhost 127.0.0.1" FilePath="C:/Users/Dell/Desktop/empl.txt" Encoding="US-ASCII" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_QIKdQf2MEeeCKbSHiqqQeg" name="default" dataManager="_QIKdQP2MEeeCKbSHiqqQeg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_QIKdQv2MEeeCKbSHiqqQeg" id="_KVJ80P2MEeeCKbSHiqqQeg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QIKdQ_2MEeeCKbSHiqqQeg" label="empid_empno_empname_sal_hra_doj_address_phonenumber_emailid_" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

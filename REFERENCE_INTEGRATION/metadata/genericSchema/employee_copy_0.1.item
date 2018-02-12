@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="__tWgYOnyEeec9_3gubsIDw" comment="connectionComment" label="connectionLabel" dataPackage="__tWgYenyEeec9_3gubsIDw"/>
+  <TalendMetadata:GenericPackage xmi:id="__tWgYenyEeec9_3gubsIDw" dataManager="__tWgYOnyEeec9_3gubsIDw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="__tWgYunyEeec9_3gubsIDw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__tWgY-nyEeec9_3gubsIDw" name="name" id="433" label="name" length="-1" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="__tWgZOnyEeec9_3gubsIDw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__tWgZenyEeec9_3gubsIDw" name="salary" id="434" label="salary" length="-1" precision="-1" sourceType="" talendType="id_Integer">
+        <initialValue xmi:id="__tWgZunyEeec9_3gubsIDw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__tWgZ-nyEeec9_3gubsIDw" name="location" id="435" label="location" length="-1" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="__tWgaOnyEeec9_3gubsIDw"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

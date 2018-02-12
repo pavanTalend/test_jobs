@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_JtpM4OVOEeesOpoGHd6rWQ" name="pavan" dataPackage="_JtyW0OVOEeesOpoGHd6rWQ" Server="Localhost 127.0.0.1" FilePath="E:/files for practice/12AM/employe.txt" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_JtyW0OVOEeesOpoGHd6rWQ" name="default" dataManager="_JtpM4OVOEeesOpoGHd6rWQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_JtyW0eVOEeesOpoGHd6rWQ" id="_ARhQsOVOEeesOpoGHd6rWQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_JtyW0uVOEeesOpoGHd6rWQ" label="empno" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_JtyW0-VOEeesOpoGHd6rWQ" label="empname" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_JtyW1OVOEeesOpoGHd6rWQ" label="sal" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_JtyW1eVOEeesOpoGHd6rWQ" label="HRA" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_JtyW1uVOEeesOpoGHd6rWQ" label="deptno" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_JtyW1-VOEeesOpoGHd6rWQ" label="deptname" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_JtyW2OVOEeesOpoGHd6rWQ" label="loc" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

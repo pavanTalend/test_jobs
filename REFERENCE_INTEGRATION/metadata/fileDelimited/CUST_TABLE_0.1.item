@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_74aWEPaeEeexftgFvhqttw" name="CUST_TABLE" dataPackage="_74aWEfaeEeexftgFvhqttw" Server="Localhost 127.0.0.1" FilePath="C:/Users/Dell/Desktop/CUST_TABLE.txt" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_74aWEfaeEeexftgFvhqttw" name="default" dataManager="_74aWEPaeEeexftgFvhqttw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_74aWEvaeEeexftgFvhqttw" id="_p2rO8PaeEeexftgFvhqttw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_74aWE_aeEeexftgFvhqttw" label="CUST_ID" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_74aWFPaeEeexftgFvhqttw" label="CUST_F_NAME" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_74aWFfaeEeexftgFvhqttw" label="CUST_L_NAME" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_74aWFvaeEeexftgFvhqttw" label="CUST_ADDRESS" length="17" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_74aWF_aeEeexftgFvhqttw" label="COUNTRY" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_74aWGPaeEeexftgFvhqttw" label="STATE" length="13" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_74aWGfaeEeexftgFvhqttw" label="PINCODE" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_74aWGvaeEeexftgFvhqttw" label="PHONE_NUMBER" length="10" talendType="id_Long" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_74aWG_aeEeexftgFvhqttw" label="EMAIL" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_74aWHPaeEeexftgFvhqttw" label="SHIPPING_ADDRESS" length="17" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_74aWHfaeEeexftgFvhqttw" label="SHIPPING_COUNTRY" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_74aWHvaeEeexftgFvhqttw" label="SHIPPING_PINCODE" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
