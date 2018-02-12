@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_1ukQgP3REeeh5Mr1PWAgRQ" name="SOURCE_FILE1" dataPackage="_1ukQgf3REeeh5Mr1PWAgRQ" Server="Localhost 127.0.0.1" FilePath="C:/Users/Dell/Desktop/NEW/SOURCE_FILE/accountstatus_20171224.txt" Encoding="US-ASCII" FieldSeparatorValue="&quot;|&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Custom UTF8"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_1ukQgf3REeeh5Mr1PWAgRQ" name="default" dataManager="_1ukQgP3REeeh5Mr1PWAgRQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_1ukQgv3REeeh5Mr1PWAgRQ" id="_U46CEP3REeeh5Mr1PWAgRQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1ukQg_3REeeh5Mr1PWAgRQ" label="CUSTOMER_ID" length="10" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1ukQhP3REeeh5Mr1PWAgRQ" label="PARENT_CUSTOMER_ID" length="10" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1ukQhf3REeeh5Mr1PWAgRQ" label="CUSTOMER_STATUS" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1ukQhv3REeeh5Mr1PWAgRQ" label="START_DATE" length="7" talendType="id_Date" pattern="&quot;yyyyMMdd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1ukQh_3REeeh5Mr1PWAgRQ" label="END_DATE" length="7" talendType="id_Date" pattern="&quot;yyyyMMdd&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

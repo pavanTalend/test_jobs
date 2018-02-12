@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <TalendMetadata:DatabaseConnection xmi:id="_UGtaYNcUEee0l71Wc4KLcw" name="project" id="_OyVWsNcUEee0l71Wc4KLcw" label="project" dataPackage="_UJir8NcUEee0l71Wc4KLcw _UJir8dcUEee0l71Wc4KLcw _UJir8tcUEee0l71Wc4KLcw _UJir89cUEee0l71Wc4KLcw _UJir9NcUEee0l71Wc4KLcw _UJir9dcUEee0l71Wc4KLcw _UJir9tcUEee0l71Wc4KLcw _UJir99cUEee0l71Wc4KLcw _UJir-NcUEee0l71Wc4KLcw _UJir-dcUEee0l71Wc4KLcw _UJir-tcUEee0l71Wc4KLcw _UJir-9cUEee0l71Wc4KLcw _UJir_NcUEee0l71Wc4KLcw _UJir_dcUEee0l71Wc4KLcw" DatabaseType="Oracle with service name" DriverClass="oracle.jdbc.OracleDriver" URL="jdbc:oracle:thin:@(description=(address=(protocol=tcp)(host=localhost)(port=1521))(connect_data=(service_name=xe)))" dbVersionString="ORACLE_12" Port="1521" Username="system" Password="v9HXAEmf0Mk=" ServerName="localhost" DatasourceName="" FileFieldName="" SID="xe" SqlSynthax="SQL Syntax" DbmsId="oracle_id" ProductId="ORACLE" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_UGtaYdcUEee0l71Wc4KLcw" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_UG3LYNcUEee0l71Wc4KLcw" tag="package filter" value=""/>
+    <taggedValue xmi:id="_UHA8YNcUEee0l71Wc4KLcw" tag="Status" value=""/>
+    <taggedValue xmi:id="_UHA8YdcUEee0l71Wc4KLcw" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_UHA8YtcUEee0l71Wc4KLcw" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_UHA8Y9cUEee0l71Wc4KLcw" tag="Description" value=""/>
+    <taggedValue xmi:id="_UHA8ZNcUEee0l71Wc4KLcw" tag="Author" value=""/>
+    <taggedValue xmi:id="_UHA8ZdcUEee0l71Wc4KLcw" tag="otherParameter"/>
+    <taggedValue xmi:id="_UHT3UNcUEee0l71Wc4KLcw" tag="DB ProductName" value="Oracle"/>
+    <taggedValue xmi:id="_UHT3UdcUEee0l71Wc4KLcw" tag="DB ProductVersion" value="Oracle Database 11g Express Edition Release 11.2.0.2.0 - Production"/>
+    <taggedValue xmi:id="_UHT3UtcUEee0l71Wc4KLcw" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_UGtaYtcUEee0l71Wc4KLcw" key="CONN_PARA_KEY_USERNAME" value="system"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_UJir8NcUEee0l71Wc4KLcw" name="ANONYMOUS" dataManager="_UGtaYNcUEee0l71Wc4KLcw"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_UJir8dcUEee0l71Wc4KLcw" name="APEX_040000" dataManager="_UGtaYNcUEee0l71Wc4KLcw"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_UJir8tcUEee0l71Wc4KLcw" name="APEX_PUBLIC_USER" dataManager="_UGtaYNcUEee0l71Wc4KLcw"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_UJir89cUEee0l71Wc4KLcw" name="CTXSYS" dataManager="_UGtaYNcUEee0l71Wc4KLcw"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_UJir9NcUEee0l71Wc4KLcw" name="FLOWS_FILES" dataManager="_UGtaYNcUEee0l71Wc4KLcw"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_UJir9dcUEee0l71Wc4KLcw" name="HR" dataManager="_UGtaYNcUEee0l71Wc4KLcw"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_UJir9tcUEee0l71Wc4KLcw" name="MDSYS" dataManager="_UGtaYNcUEee0l71Wc4KLcw"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_UJir99cUEee0l71Wc4KLcw" name="OUTLN" dataManager="_UGtaYNcUEee0l71Wc4KLcw"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_UJir-NcUEee0l71Wc4KLcw" name="PAVAN" dataManager="_UGtaYNcUEee0l71Wc4KLcw"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_UJir-dcUEee0l71Wc4KLcw" name="PAVAN143" dataManager="_UGtaYNcUEee0l71Wc4KLcw"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_UJir-tcUEee0l71Wc4KLcw" name="SYS" dataManager="_UGtaYNcUEee0l71Wc4KLcw"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_UJir-9cUEee0l71Wc4KLcw" name="SYSTEM" dataManager="_UGtaYNcUEee0l71Wc4KLcw">
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_2SLTQNcWEee0l71Wc4KLcw" name="PRACTICE1" id="_2RunUNcWEee0l71Wc4KLcw" label="PRACTICE1" tableType="TABLE">
+      <taggedValue xmi:id="_2SLTQdcWEee0l71Wc4KLcw" tag="Comment" value=""/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_2SLTQtcWEee0l71Wc4KLcw" name="EMPNO" label="EMPNO" length="-1" sourceType="INT" talendType="id_Integer">
+        <taggedValue xmi:id="_2SLTQ9cWEee0l71Wc4KLcw" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_2SLTRNcWEee0l71Wc4KLcw" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_2SLTRdcWEee0l71Wc4KLcw" name="NUMBER" numericPrecisionRadix="10" javaDataType="3" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_2SLTRtcWEee0l71Wc4KLcw" name="EMPNAME" label="EMPNAME" length="7" sourceType="VARCHAR2" talendType="id_String">
+        <taggedValue xmi:id="_2SLTR9cWEee0l71Wc4KLcw" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_2SLTSNcWEee0l71Wc4KLcw" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_2SLTSdcWEee0l71Wc4KLcw" name="VARCHAR2" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_2SLTStcWEee0l71Wc4KLcw" name="SAL" label="SAL" length="-1" sourceType="INT" talendType="id_Integer">
+        <taggedValue xmi:id="_2SLTS9cWEee0l71Wc4KLcw" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_2SLTTNcWEee0l71Wc4KLcw" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_2SLTTdcWEee0l71Wc4KLcw" name="NUMBER" numericPrecisionRadix="10" javaDataType="3" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_2SLTTtcWEee0l71Wc4KLcw" name="HRA" label="HRA" length="-1" sourceType="INT" talendType="id_Integer">
+        <taggedValue xmi:id="_2SLTT9cWEee0l71Wc4KLcw" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_2SLTUNcWEee0l71Wc4KLcw" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_2SLTUdcWEee0l71Wc4KLcw" name="NUMBER" numericPrecisionRadix="10" javaDataType="3" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_2SLTUtcWEee0l71Wc4KLcw" name="DEPTNO" label="DEPTNO" length="-1" sourceType="INT" talendType="id_Integer">
+        <taggedValue xmi:id="_2SLTU9cWEee0l71Wc4KLcw" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_2SLTVNcWEee0l71Wc4KLcw" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_2SLTVdcWEee0l71Wc4KLcw" name="NUMBER" numericPrecisionRadix="10" javaDataType="3" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_2SLTVtcWEee0l71Wc4KLcw" name="DEPTNAME" label="DEPTNAME" length="20" sourceType="VARCHAR2" talendType="id_String">
+        <taggedValue xmi:id="_2SLTV9cWEee0l71Wc4KLcw" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_2SLTWNcWEee0l71Wc4KLcw" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_2SLTWdcWEee0l71Wc4KLcw" name="VARCHAR2" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_2SLTWtcWEee0l71Wc4KLcw" name="LOC" label="LOC" length="3" sourceType="VARCHAR2" talendType="id_String">
+        <taggedValue xmi:id="_2SLTW9cWEee0l71Wc4KLcw" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_2SLTXNcWEee0l71Wc4KLcw" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_2SLTXdcWEee0l71Wc4KLcw" name="VARCHAR2" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_2SLTXtcWEee0l71Wc4KLcw" name="EXEC_ID" label="EXEC_ID" length="-1" sourceType="INT" talendType="id_Integer">
+        <taggedValue xmi:id="_2SLTX9cWEee0l71Wc4KLcw" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_2SLTYNcWEee0l71Wc4KLcw" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_2SLTYdcWEee0l71Wc4KLcw" name="NUMBER" numericPrecisionRadix="10" javaDataType="3" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_2SLTYtcWEee0l71Wc4KLcw" name="JOB_NAME" label="JOB_NAME" length="20" sourceType="VARCHAR2" talendType="id_String">
+        <taggedValue xmi:id="_2SLTY9cWEee0l71Wc4KLcw" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_2SLTZNcWEee0l71Wc4KLcw" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_2SLTZdcWEee0l71Wc4KLcw" name="VARCHAR2" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_2SLTZtcWEee0l71Wc4KLcw" name="JOB_STATUS" label="JOB_STATUS" length="20" sourceType="VARCHAR2" talendType="id_String">
+        <taggedValue xmi:id="_2SLTZ9cWEee0l71Wc4KLcw" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_2SLTaNcWEee0l71Wc4KLcw" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_2SLTadcWEee0l71Wc4KLcw" name="VARCHAR2" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_2SLTatcWEee0l71Wc4KLcw" name="EXECCUTION_DATE" label="EXECCUTION_DATE" length="7" sourceType="DATE" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_2SLTa9cWEee0l71Wc4KLcw" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_2SLTbNcWEee0l71Wc4KLcw" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_2SLTbdcWEee0l71Wc4KLcw" name="DATE" numericPrecisionRadix="10" javaDataType="93" nullable="columnNullable"/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Schema>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_UJir_NcUEee0l71Wc4KLcw" name="XDB" dataManager="_UGtaYNcUEee0l71Wc4KLcw"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_UJir_dcUEee0l71Wc4KLcw" name="XS$NULL" dataManager="_UGtaYNcUEee0l71Wc4KLcw"/>
+</xmi:XMI>

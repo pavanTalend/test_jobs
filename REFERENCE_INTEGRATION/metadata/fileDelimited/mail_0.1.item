@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_efeHMcxOEeetfNZJXZb1vQ" name="mail" dataPackage="_efeHMsxOEeetfNZJXZb1vQ" Server="Localhost 127.0.0.1" FilePath="C:/Users/Dell/Desktop/mailfile.txt" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_efeHMsxOEeetfNZJXZb1vQ" name="default" dataManager="_efeHMcxOEeetfNZJXZb1vQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_efeHM8xOEeetfNZJXZb1vQ" id="_Tp2BcMxOEeetfNZJXZb1vQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_efeHNMxOEeetfNZJXZb1vQ" label="empno" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_efeHNcxOEeetfNZJXZb1vQ" label="empname" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_efeHNsxOEeetfNZJXZb1vQ" label="mailid" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

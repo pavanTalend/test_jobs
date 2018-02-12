@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_XHOE4NXeEeePLMJoVBCsXg" name="SCD1" id="_IeuxgNXeEeePLMJoVBCsXg" label="SCD1" dataPackage="_XKWRYNXeEeePLMJoVBCsXg _XKWRYdXeEeePLMJoVBCsXg _XKWRYtXeEeePLMJoVBCsXg _XKWRY9XeEeePLMJoVBCsXg _XKWRZNXeEeePLMJoVBCsXg _XKWRZdXeEeePLMJoVBCsXg _XKWRZtXeEeePLMJoVBCsXg _XKWRZ9XeEeePLMJoVBCsXg _XKWRaNXeEeePLMJoVBCsXg _XKWRadXeEeePLMJoVBCsXg _XKWRatXeEeePLMJoVBCsXg _XKWRa9XeEeePLMJoVBCsXg _XKWRbNXeEeePLMJoVBCsXg _XKWRbdXeEeePLMJoVBCsXg" DatabaseType="Oracle with service name" DriverClass="oracle.jdbc.OracleDriver" URL="jdbc:oracle:thin:@(description=(address=(protocol=tcp)(host=localhost)(port=1521))(connect_data=(service_name=xe)))" dbVersionString="ORACLE_12" Port="1521" Username="SYSTEM" Password="v9HXAEmf0Mk=" ServerName="localhost" DatasourceName="" FileFieldName="" SID="xe" SqlSynthax="SQL Syntax" DbmsId="oracle_id" ProductId="ORACLE" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_XHOE4dXeEeePLMJoVBCsXg" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_XHg_0NXeEeePLMJoVBCsXg" tag="package filter" value=""/>
+    <taggedValue xmi:id="_XHqw0NXeEeePLMJoVBCsXg" tag="Status" value=""/>
+    <taggedValue xmi:id="_XHqw0dXeEeePLMJoVBCsXg" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_XHqw0tXeEeePLMJoVBCsXg" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_XHqw09XeEeePLMJoVBCsXg" tag="Description" value=""/>
+    <taggedValue xmi:id="_XHqw1NXeEeePLMJoVBCsXg" tag="Author" value=""/>
+    <taggedValue xmi:id="_XHqw1dXeEeePLMJoVBCsXg" tag="otherParameter"/>
+    <taggedValue xmi:id="_XH9rwNXeEeePLMJoVBCsXg" tag="DB ProductName" value="Oracle"/>
+    <taggedValue xmi:id="_XH9rwdXeEeePLMJoVBCsXg" tag="DB ProductVersion" value="Oracle Database 11g Express Edition Release 11.2.0.2.0 - Production"/>
+    <taggedValue xmi:id="_XH9rwtXeEeePLMJoVBCsXg" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_XHOE4tXeEeePLMJoVBCsXg" key="CONN_PARA_KEY_USERNAME" value="SYSTEM"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_XKWRYNXeEeePLMJoVBCsXg" name="ANONYMOUS" dataManager="_XHOE4NXeEeePLMJoVBCsXg"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_XKWRYdXeEeePLMJoVBCsXg" name="APEX_040000" dataManager="_XHOE4NXeEeePLMJoVBCsXg"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_XKWRYtXeEeePLMJoVBCsXg" name="APEX_PUBLIC_USER" dataManager="_XHOE4NXeEeePLMJoVBCsXg"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_XKWRY9XeEeePLMJoVBCsXg" name="CTXSYS" dataManager="_XHOE4NXeEeePLMJoVBCsXg"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_XKWRZNXeEeePLMJoVBCsXg" name="FLOWS_FILES" dataManager="_XHOE4NXeEeePLMJoVBCsXg"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_XKWRZdXeEeePLMJoVBCsXg" name="HR" dataManager="_XHOE4NXeEeePLMJoVBCsXg"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_XKWRZtXeEeePLMJoVBCsXg" name="MDSYS" dataManager="_XHOE4NXeEeePLMJoVBCsXg"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_XKWRZ9XeEeePLMJoVBCsXg" name="OUTLN" dataManager="_XHOE4NXeEeePLMJoVBCsXg"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_XKWRaNXeEeePLMJoVBCsXg" name="PAVAN" dataManager="_XHOE4NXeEeePLMJoVBCsXg"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_XKWRadXeEeePLMJoVBCsXg" name="PAVAN143" dataManager="_XHOE4NXeEeePLMJoVBCsXg"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_XKWRatXeEeePLMJoVBCsXg" name="SYS" dataManager="_XHOE4NXeEeePLMJoVBCsXg"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_XKWRa9XeEeePLMJoVBCsXg" name="SYSTEM" dataManager="_XHOE4NXeEeePLMJoVBCsXg"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_XKWRbNXeEeePLMJoVBCsXg" name="XDB" dataManager="_XHOE4NXeEeePLMJoVBCsXg"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_XKWRbdXeEeePLMJoVBCsXg" name="XS$NULL" dataManager="_XHOE4NXeEeePLMJoVBCsXg"/>
+</xmi:XMI>

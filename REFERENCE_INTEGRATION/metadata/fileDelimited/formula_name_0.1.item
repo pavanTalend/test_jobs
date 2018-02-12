@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_o5oiwQs1Eeibp-qOsclZMw" name="formula_name" dataPackage="_o5oiwgs1Eeibp-qOsclZMw" Server="Localhost 127.0.0.1" FilePath="C:/Users/Dell/Desktop/COLOUR_CHIP/FORMULANAME.txt" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_o5oiwgs1Eeibp-qOsclZMw" name="default" dataManager="_o5oiwQs1Eeibp-qOsclZMw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_o5oiwws1Eeibp-qOsclZMw" id="_9Yb-sAs0Eeibp-qOsclZMw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_o5oixAs1Eeibp-qOsclZMw" label="LAYER_SET_ID" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_o5oixQs1Eeibp-qOsclZMw" label="LAYER_ORDER" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

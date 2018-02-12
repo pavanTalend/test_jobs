@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendJSON:JSONFileConnection xmi:id="_sOPloeDZEeebPPx4L1sUfA" name="JSON" dataPackage="_sOPlq-DZEeebPPx4L1sUfA" JSONFilePath="C:/Users/Dell/Desktop/JSON_JOB.JSON" Encoding="UTF-8" readbyMode="XPATH">
+    <schema xmi:id="_sOPlouDZEeebPPx4L1sUfA" LimitBoucle="-1" AbsoluteXPathQuery="/root/weather" flag="ROOT">
+      <schemaTargets xmi:id="_sOPlo-DZEeebPPx4L1sUfA" RelativeXPathQuery="../main/pressure" TagName="PRESSURE"/>
+      <schemaTargets xmi:id="_sOPlpODZEeebPPx4L1sUfA" RelativeXPathQuery="../main/humidity" TagName="HUMIDITY"/>
+      <schemaTargets xmi:id="_sOPlpeDZEeebPPx4L1sUfA" RelativeXPathQuery="../id" TagName="WEATHER_ID"/>
+      <schemaTargets xmi:id="_sOPlpuDZEeebPPx4L1sUfA" RelativeXPathQuery="id" TagName="COUNTRY_ID"/>
+      <schemaTargets xmi:id="_sOPlp-DZEeebPPx4L1sUfA" RelativeXPathQuery="../name" TagName="COUNTRY_NAME"/>
+      <schemaTargets xmi:id="_sOPlqODZEeebPPx4L1sUfA" RelativeXPathQuery="../sys/id" TagName="CITY_ID"/>
+      <schemaTargets xmi:id="_sOPlqeDZEeebPPx4L1sUfA" RelativeXPathQuery="../sys/country" TagName="CITY_NAME"/>
+      <schemaTargets xmi:id="_sOPlquDZEeebPPx4L1sUfA" RelativeXPathQuery="../main/temp" TagName="TEMPARATURE"/>
+    </schema>
+  </TalendJSON:JSONFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_sOPlq-DZEeebPPx4L1sUfA" name="default" dataManager="_sOPloeDZEeebPPx4L1sUfA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_sOQMsODZEeebPPx4L1sUfA" id="_RegpEODYEeebPPx4L1sUfA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_sOQMseDZEeebPPx4L1sUfA" label="PRESSURE" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_sOQMsuDZEeebPPx4L1sUfA" label="HUMIDITY" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_sOQMs-DZEeebPPx4L1sUfA" label="WEATHER_ID" length="7" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_sOQMtODZEeebPPx4L1sUfA" label="COUNTRY_ID" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_sOQMteDZEeebPPx4L1sUfA" label="COUNTRY_NAME" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_sOQMtuDZEeebPPx4L1sUfA" label="CITY_ID" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_sOQMt-DZEeebPPx4L1sUfA" label="CITY_NAME" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_sOQMuODZEeebPPx4L1sUfA" label="TEMPARATURE" length="6" precision="3" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

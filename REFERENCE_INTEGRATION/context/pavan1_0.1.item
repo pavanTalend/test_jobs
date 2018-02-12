@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_2sTzoA_DEei3Kd_iySHwSw" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_2sTzoQ_DEei3Kd_iySHwSw" comment="" name="Username" prompt="Username?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2sTzog_DEei3Kd_iySHwSw" comment="" name="Password" prompt="Password?" promptNeeded="false" type="id_Password" value=""/>
+  <contextParameter xmi:id="_2sTzow_DEei3Kd_iySHwSw" comment="" name="Port" prompt="Port?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2sTzpA_DEei3Kd_iySHwSw" comment="" name="Database" prompt="Database?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2sTzpQ_DEei3Kd_iySHwSw" comment="" name="Host" prompt="Host?" promptNeeded="false" type="id_String" value=""/>
+</talendfile:ContextType>

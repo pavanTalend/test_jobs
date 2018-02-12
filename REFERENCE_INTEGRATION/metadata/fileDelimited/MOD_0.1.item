@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_cRCJoQvcEeioYb5ioDOEUw" name="MOD" dataPackage="_cRCJogvcEeioYb5ioDOEUw" Server="Localhost 127.0.0.1" FilePath="C:/Users/Dell/Desktop/micro/MODYEAR.txt" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_cRCJogvcEeioYb5ioDOEUw" name="default" dataManager="_cRCJoQvcEeioYb5ioDOEUw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_cRCJowvcEeioYb5ioDOEUw" id="_Q_GiYAvcEeioYb5ioDOEUw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cRCJpAvcEeioYb5ioDOEUw" label="modyear_model_id" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

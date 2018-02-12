@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendJSON:JSONFileConnection xmi:id="_PsxLMeDDEeebPPx4L1sUfA" name="JSONFILE" dataPackage="_PsxLNuDDEeebPPx4L1sUfA" JSONFilePath="C:/Users/Dell/Desktop/JSON_JOB.JSON" Encoding="UTF-8" readbyMode="XPATH">
+    <schema xmi:id="_PsxLMuDDEeebPPx4L1sUfA" LimitBoucle="50" AbsoluteXPathQuery="/root/weather" flag="ROOT">
+      <schemaTargets xmi:id="_PsxLM-DDEeebPPx4L1sUfA" RelativeXPathQuery="../main/temp" TagName="TEMPERATURE"/>
+      <schemaTargets xmi:id="_PsxLNODDEeebPPx4L1sUfA" RelativeXPathQuery="../main/humidity" TagName="HUMIDITY"/>
+      <schemaTargets xmi:id="_PsxLNeDDEeebPPx4L1sUfA" RelativeXPathQuery="../main/pressure" TagName="PRESSURE"/>
+    </schema>
+  </TalendJSON:JSONFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_PsxLNuDDEeebPPx4L1sUfA" name="default" dataManager="_PsxLMeDDEeebPPx4L1sUfA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_PsxLN-DDEeebPPx4L1sUfA" id="_qYCwcODCEeebPPx4L1sUfA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_PsxLOODDEeebPPx4L1sUfA" label="TEMPERATURE" length="6" precision="3" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_PsxLOeDDEeebPPx4L1sUfA" label="HUMIDITY" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_PsxLOuDDEeebPPx4L1sUfA" label="PRESSURE" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

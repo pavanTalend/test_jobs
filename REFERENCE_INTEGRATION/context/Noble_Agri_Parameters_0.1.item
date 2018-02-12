@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_2rjlsA_DEei3Kd_iySHwSw" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_2rjlsQ_DEei3Kd_iySHwSw" comment="" name="mssql_Schema" prompt="mssql_Schema?" promptNeeded="true" type="id_String" value="dbo"/>
+  <contextParameter xmi:id="_2rjlsg_DEei3Kd_iySHwSw" comment="" name="mssql_Server" prompt="mssql_Server?" promptNeeded="false" type="id_String" value="localhost"/>
+  <contextParameter xmi:id="_2rjlsw_DEei3Kd_iySHwSw" comment="" name="mssql_Password" prompt="mssql_Password?" promptNeeded="false" type="id_Password" value="7puUfJT1gcQw30uHI+Yy6w=="/>
+  <contextParameter xmi:id="_2rjltA_DEei3Kd_iySHwSw" comment="" name="mssql_Port" prompt="mssql_Port?" promptNeeded="true" type="id_String" value="1433"/>
+  <contextParameter xmi:id="_2rjltQ_DEei3Kd_iySHwSw" comment="" name="mssql_AdditionalParams" prompt="mssql_AdditionalParams?" promptNeeded="true" type="id_String" value=""/>
+  <contextParameter xmi:id="_2rjltg_DEei3Kd_iySHwSw" comment="" name="mssql_Login" prompt="mssql_Login?" promptNeeded="false" type="id_String" value="talend"/>
+  <contextParameter xmi:id="_2rjltw_DEei3Kd_iySHwSw" comment="" name="mssql_Database" prompt="mssql_Database?" promptNeeded="false" type="id_String" value="NobleAgri"/>
+  <contextParameter xmi:id="_2rjluA_DEei3Kd_iySHwSw" comment="" name="max_prod_id" prompt="max_prod_id?" promptNeeded="false" type="id_Integer" value=""/>
+  <contextParameter xmi:id="_2rjluQ_DEei3Kd_iySHwSw" comment="" name="max_profit_c_id" prompt="max_profit_c_id?" promptNeeded="false" type="id_Integer" value=""/>
+  <contextParameter xmi:id="_2rjlug_DEei3Kd_iySHwSw" comment="" name="Exec_id" prompt="Exec_id?" promptNeeded="false" type="id_Integer" value=""/>
+  <contextParameter xmi:id="_2rjluw_DEei3Kd_iySHwSw" comment="" name="Source_file_dir" prompt="Source_file_dir?" promptNeeded="false" type="id_String" value="C:/Users/syam/Desktop/POC/Coding/Source/"/>
+  <contextParameter xmi:id="_2rjlvA_DEei3Kd_iySHwSw" comment="" name="Done_file_dir" prompt="Done_file_dir?" promptNeeded="false" type="id_String" value="C:/Users/syam/Desktop/POC/Coding/Source/"/>
+  <contextParameter xmi:id="_2rjlvQ_DEei3Kd_iySHwSw" comment="" name="Source_file_name" prompt="Source_file_name?" promptNeeded="false" type="id_String" value="sourcefile.csv"/>
+  <contextParameter xmi:id="_2rjlvg_DEei3Kd_iySHwSw" comment="" name="History_file_loc" prompt="History_file_loc?" promptNeeded="false" type="id_String" value="C:/Users/syam/Desktop/POC/Coding/Source/History.txt"/>
+</talendfile:ContextType>

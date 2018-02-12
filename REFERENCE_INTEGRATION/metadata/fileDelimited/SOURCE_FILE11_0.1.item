@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_0-JbUAsmEeibp-qOsclZMw" name="SOURCE_FILE11" dataPackage="_0-JbUQsmEeibp-qOsclZMw" Server="Localhost 127.0.0.1" FilePath="C:/Users/Dell/Desktop/COLOUR_CHIP/SOURCE.txt" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_0-JbUQsmEeibp-qOsclZMw" name="default" dataManager="_0-JbUAsmEeibp-qOsclZMw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_0-MeoAsmEeibp-qOsclZMw" id="_n4fMoAsmEeibp-qOsclZMw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0-MeoQsmEeibp-qOsclZMw" label="chp_FORMULA_NUMBER" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0-MeogsmEeibp-qOsclZMw" label="chp_FORMULA_NAME" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0-MeowsmEeibp-qOsclZMw" label="chp_COLOR_NAME" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0-MepAsmEeibp-qOsclZMw" label="chp_FORMULA_COMMENT" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0-MepQsmEeibp-qOsclZMw" label="chp_QUALITY_CODE" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0-MepgsmEeibp-qOsclZMw" label="chp_TOOL" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0-MepwsmEeibp-qOsclZMw" label="chp_CHIP_SOURCE" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0-MeqAsmEeibp-qOsclZMw" label="chp_NAME_CHIP_NUMBER" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0-MeqQsmEeibp-qOsclZMw" label="chp_FORMULA_VERSION" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0-MeqgsmEeibp-qOsclZMw" label="chp_IS_PUBLIC" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0-MeqwsmEeibp-qOsclZMw" label="chp_IS_ACTIVE" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0-MerAsmEeibp-qOsclZMw" label="chp_LAYER_SET_ID" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
